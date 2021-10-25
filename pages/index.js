@@ -30,6 +30,12 @@ function Main() {
        <div className={styles.main_content}>
         <h1>Samsarah</h1>
         <h4>The financial social network</h4>
+        <p>Using Samsarah you can:</p>
+        <ul>
+          <li>Create a real or pseudonymous public profile.</li>
+          <li>Follow others & checkout their profiles, NFT collections, DAOs they are part of etc.</li>
+          <li>Create or join DAOs</li>
+        </ul>
 
       </div>
      </div>
