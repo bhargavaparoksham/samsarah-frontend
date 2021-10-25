@@ -1,0 +1,50 @@
+* {
+  --color-blue: #007aff;
+  --color-black: #282846;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  background: rgb(10, 10, 10);
+  /*background-image: linear-gradient(120deg, #f4e99a, #c8ebfb);*/
+  font-family: "Inter", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+button {
+  cursor: pointer;
+  font-family: "Inter", sans-serif;
+}
+
+input {
+  font-family: "Inter", sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+// BNC Onboard lightbox setup
+.bn-onboard-modal {
+  // Forcefully override all elements
+  z-index: 99999;
+}
+
+
+
+
+.sizer {
+  max-width: 1024px;
+  padding: 0px 16px;
+  margin: 0px auto;
+  text-align: center;
+}
+

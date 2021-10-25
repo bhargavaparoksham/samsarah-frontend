@@ -1,30 +1,39 @@
-import Head from 'next/head'
+import dayjs from "dayjs"; // Date parsing
+import Link from "next/link"; // Dynamic routing
+import Layout from "../components/Layout"; // Component: layout
+import { toast } from "react-toastify"; // Toast notifications
+import Loader from "react-loader-spinner"; // Spinner
+import { useEffect, useState, useLayoutEffect } from "react"; // State management
+import styles from "../styles/pages/Home.module.scss"; // Page styles
 import Image from 'next/image'
-import styles from '../styles/Home.module.css'
+
 
 export default function Home() {
+
   return (
-    <div className={styles.container}>
-      <Head>
-        <title>Samsarah</title>
-        <meta name="description" content="Samsarah is financial social network" />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+    // Wrap page in layout
+    <Layout>
+      {/* Main */}
+      <Main />
+    </Layout>
+  );
+}
 
-      <main className={styles.main}>
-        <h1 className={styles.title}>
-          Samsarah
-        </h1>
+/**
+ * Main
+ * @returns {HTMLElement}
+ */
+function Main() {
+  return (
+    <div>
+    <div className={styles.main}>
+       <div className={styles.main_content}>
+        <h1>Samsarah</h1>
+        <h4>The financial social network</h4>
 
-        <p className={styles.description}>
-          The financial social netowrk.
-        </p>
-      </main>
-
-      <footer className={styles.footer}>
-
-          <div> Built by Eagle </div>
-      </footer>
-    </div>
-  )
+      </div>
+     </div>
+     </div>
+  );
+    
 }
