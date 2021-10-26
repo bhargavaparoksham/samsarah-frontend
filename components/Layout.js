@@ -37,7 +37,7 @@ function Meta() {
       <meta name="title" content="Samsarah" />
       <meta
         name="description"
-        content="Samsarah is financial social netowrk"
+        content="Samsarah is a financial social network"
       />
       {/* Google fonts */}
       <link rel="preconnect" href="https://fonts.gstatic.com" />
