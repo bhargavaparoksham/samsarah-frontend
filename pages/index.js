@@ -30,6 +30,13 @@ function Main() {
        <div className={styles.main_content}>
         <h1>Samsarah</h1>
         <h4>The financial social network</h4>
+        <div className={styles.main_buttons}>
+            <Link href="/mint">
+              <button>
+                Create Profile
+              </button>
+            </Link> 
+        </div>  
       </div>
      </div>
      </div>
