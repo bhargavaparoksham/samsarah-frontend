@@ -31,7 +31,7 @@ function Main() {
         <h1>Samsarah</h1>
         <h4>The financial social network</h4>
         <div className={styles.main_buttons}>
-            <Link href="/mint">
+            <Link href="/profile">
               <button>
                 Create Profile
               </button>
