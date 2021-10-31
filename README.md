@@ -1,4 +1,4 @@
-# Samsarah is a financial social network on Ethereum (WIP)
+# Samsarah is a financial social network on Ethereum (WIP).
 
 This is a [Next.js](https://nextjs.org/) project.
 
